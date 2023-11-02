@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Le document XML BanqueService contient des informations sur des opérations bancaires. -->
+<BanqueService xmlns="http://www.example.org/BanqueService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/BanqueService ../../../TP2Soa/src/xsdPcak/BanqueService.xsd">
+  <!-- La section "convertion" semble contenir des informations sur une conversion de montant. -->
+  <convertion>
+    <montant>15.3</montant> <!-- Montant à convertir -->
+  </convertion>
+  <!-- Les sections "getComptes" contiennent des informations sur différents comptes bancaires. -->
+  <getComptes code="101" date="1922-01-01" solde="4528.0"/>
+  <getComptes code="108" date="2023-01-01" solde="75532.0"/>
+  <getComptes code="107" date="1999-01-01" solde="7596.0"/>
+  <getComptes code="105" date="1989-01-01" solde="663.0"/>
+  <!-- La section "getCompte" contient des informations sur un compte spécifique. -->
+  <getCompte code="108" date="2001-01-03" solde="1502000.0"/>
+</BanqueService>
